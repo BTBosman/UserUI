@@ -1,3 +1,57 @@
 page-home {
+    ion-col div {
+        background-color: #ff7d65;
+        border: 1px solid #a75151;
+        border-radius: 2px;
+        padding: 5px;
+        text-align: center;
+        width:104%;
+        height: 23.8vh;
+        margin-left: -14%;
+        box-shadow: solid 3px #a75151 ;
+      }
 
+      ion-content{
+          background: url("../../assets/imgs/topBack.jpg");
+          background-position: left;
+          background-size: cover;
+          background-repeat: no-repeat;
+
+      }
+
+      //box shading
+      #shade{
+          box-shadow: inset 0px 0px 15px black;
+      }
+      //grid blocks
+      .div{
+        width: 107%;
+        margin-left: -15%; 
+        text-align: center;
+        color:#fb7f71;
+
+      }
+    //the entire grid
+      .grid{
+          margin-top: 19.5%;
+          position: fixed;
+          color:#fb7f71;
+      }
+      //icons in first div
+      .icon{
+        width:25%;
+        margin-top: 30%; 
+        
+      }
+      // icons in second div
+      .icon2{
+        width:25%;
+        margin-top: 30%; 
+        color: #e6e9ee;
+      }
+      //top image
+      .image{
+          margin: 106px 0 0 108px;
+      }
+    
 }
