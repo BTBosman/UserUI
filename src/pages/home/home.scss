@@ -1,13 +1,10 @@
 page-home {
     ion-col div {
         background-color: #ff7d65;
-        border: 1px solid #a75151;
-        border-radius: 2px;
-        padding: 5px;
+         border: 1px #a75151;
         text-align: center;
-        width:110%;
-        height: 27vh;
-        margin-left: -11%;
+        width:118%;
+        height: 25vh;
         box-shadow: solid 3px #a75151;
       }
 
@@ -17,6 +14,7 @@ page-home {
           background-size: cover;
           background-repeat: no-repeat;
           text-align: center;
+          position: fixed;
 
       }
 
@@ -27,8 +25,8 @@ page-home {
 
       //grid blocks
       .div{
-        width: 112%;
-        margin-left: -17%; 
+        width: 123%;
+        margin-left: -16.5%; 
         text-align: center;
         color:#fb7f71;
       
@@ -36,9 +34,9 @@ page-home {
 
     //the entire grid
       .grid{
-          margin-top: 30%;
+          margin-top: 29%;
           margin-left:0;
-          position: fixed;
+          position: static,bottom,fixed;
           color:#fb7f71;
           text-align: center;
         }
@@ -46,20 +44,21 @@ page-home {
       //icons in first div
       .icon{
         width:25%;
-        text-align: center;
+        image-orientation: initial;
         margin-top: 30%; 
-        
         }
+
     //  icons in second div
       .icon2{
         width:25%;
         margin-top: 30%; 
         color: #e6e9ee;
       }
+
       //top image
       .image{
-          margin-top: 10%;
-          margin-bottom: 10%;
+          margin-top: 20%;
+          margin-bottom: 20%;
           margin-left: auto;
           margin-right: auto;
           display: block;
